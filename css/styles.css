@@ -54,6 +54,16 @@ h1, p {
 
     }
 
+    .wrapper > * {
+      background-color: #444;
+      color: #fff;
+      border-radius: 5px;
+      padding: 20px;
+      font-size: 150%;
+      /* needed for the floated layout*/
+      margin-bottom: 10px;
+    }
+
 
 
     .containers {
